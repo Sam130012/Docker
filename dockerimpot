@@ -1,0 +1,26 @@
+stop -- docker stop command aaram se bnd krta ha aur kill command turnt bnd krta hai.
+docker export/import command 
+
+docker start -ai 3aa0a3be4e95 to attach a container which is in stop state 
+ctrl +p & ctrl +q container se bhar niklne k liye aur container ki proceess stop bhi nhi hogi.
+docker container export doxkercontanerid -o file.tar  ye export krega container se aur ek tar file generate karega
+docker image import file.tar imagename   ye ek iamge create krega ki jiski help se purne jaisa hi ek naya container banya ja sakta hai jisme uski sbhi chheje hongi ek ]]
+
+ docker container commit --author "sam" -m "this is" containerid myimagename  bina tar file k image create krrdega 
+
+hum phir bane hue nye image ko dockerhub prr push krenge phir koi bhi usse use krk naya container bna sakta hai koi issue nhi hoga.
+
+docker pull image  ye image pull krega docker hub se
+
+docker login -u username login krne k liye
+hume jab bhi koi naya image create krk bhejna ho docker hub prr tb phile docker image ko tag krte hai
+docker image tag imagename sam130012/aftertaggingimage name   aftertagging image name hi docker hub prr show hoga
+docker login krte hai
+docker push sam130012/aftertaggingimage name phir hume ye image hub prr milegi esse acces krne k liye hume humesa username k saath image ka name daal krr access krr skate hai.
+
+
+docker image history imagename hisrtory dekh sakte ho 
+to delete a image
+docker image rm imagename / to delete fourcefully use command rm -f
+docket rmi imagename  remove image
+docker image inspect imagename
