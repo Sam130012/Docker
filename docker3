@@ -1,0 +1,2 @@
+Jab koi docker delete ho to uska data use krna hoto kaise krenge to hume docker "volume" chaioye aur usme backup rehta hai purne container ka to hum use krr sakte hai 
+do method hota hai jisme 1 method jo hai vo "Volume" hai aur dusra "bind mount".
