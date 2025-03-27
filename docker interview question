@@ -1,0 +1,96 @@
+Basic Docker Concepts
+What is Docker, and how does it differ from a virtual machine?
+
+Explain the difference between a Docker image and a Docker container.
+
+How does Docker use namespaces and cgroups?
+
+What is the purpose of Docker Hub?
+
+How would you create a Docker container from a Docker image?
+
+Can you explain what a Dockerfile is and how it is used?
+
+Docker Commands and Operations
+How do you build a Docker image?
+
+Explain how to run a Docker container. What are some important flags used in the docker run command?
+
+How would you list all running Docker containers?
+
+What’s the command to stop a running Docker container?
+
+How would you remove a Docker image or container?
+
+What does the docker ps command do?
+
+What is the difference between docker exec and docker attach?
+
+How do you check the logs of a running Docker container?
+
+Docker Networking and Volumes
+What is Docker networking, and how do containers communicate with each other?
+
+Explain the different types of Docker networks (bridge, host, none, overlay).
+
+How do you map ports between the host and a container?
+
+What is a Docker volume, and why would you use it?
+
+Explain the difference between a bind mount and a volume in Docker.
+
+Docker Compose and Orchestration
+What is Docker Compose, and how is it used?
+
+How do you define multi-container applications using Docker Compose?
+
+What is the difference between docker-compose up and docker-compose start?
+
+How do you scale services in Docker Compose?
+
+Docker Security
+How would you secure a Docker container?
+
+What are some security best practices when working with Docker containers?
+
+How do you manage secrets in Docker?
+
+What are some potential security risks or vulnerabilities when using Docker?
+
+Troubleshooting and Performance
+How would you troubleshoot a container that is not starting?
+
+What are some tools you can use to monitor the performance of Docker containers?
+
+How do you handle resource limits and quotas for containers in Docker?
+
+How would you check for issues related to container memory or CPU usage?
+
+Advanced Docker Topics
+Explain the concept of Docker Swarm and how it differs from Kubernetes.
+
+What are Docker namespaces and how do they contribute to container isolation?
+
+How would you implement a continuous integration/continuous deployment (CI/CD) pipeline using Docker?
+
+How do you manage different environments (e.g., dev, staging, prod) using Docker?
+
+How do you handle rolling updates or blue-green deployments with Docker?
+
+What is the role of Docker in microservices architecture?
+
+Real-World Scenarios
+Given an application that has multiple services (e.g., a backend, a frontend, and a database), how would you containerize it using Docker?
+
+How would you approach debugging and troubleshooting a complex application running in Docker containers?
+
+What would you do if you encounter an issue where containers are running out of disk space?
+
+Docker Best Practices
+What are the best practices for writing a Dockerfile?
+
+How do you handle caching in Docker builds?
+
+What is multi-stage build in Docker, and when would you use it?
+
+How do you keep your Docker images as small as possible?
